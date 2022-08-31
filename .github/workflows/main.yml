@@ -2,6 +2,7 @@ name: morning
 on:
   schedule:
   - cron:  '* * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
